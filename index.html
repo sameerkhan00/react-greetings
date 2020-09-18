@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+     <!-- <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+     <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyA1ycH-2wour1vA8-xQLPOnyPeGJ3IhLgc",
+          authDomain: "mywork-62ade.firebaseapp.com",
+          databaseURL: "https://mywork-62ade.firebaseio.com",
+          projectId: "mywork-62ade",
+          storageBucket: "mywork-62ade.appspot.com",
+          messagingSenderId: "222505792881",
+          appId: "1:222505792881:web:132e7412b913b4c495f2d0",
+          measurementId: "G-KHV93PTFYE"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script> -->
+</head>
+<body>
+    <!-- <div class="container" >
+        <div class="row">
+            <div class="input-group input-group-lg">
+            <input type="text" id="result" class="form-control " aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            <script src="app.js"></script>
+              </div>
+        </div>
+
+        <div class="row m-5">
+            <button type="button" class="btn btn-primary" onclick="getNum('+')">+</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('-')">-</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('/')">/</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('*')">x</button>
+        </div>
+        <div class="row m-5">
+            <button type="button" class="btn btn-primary"  onclick="getNum('1')">1</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('2')">2</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('3')">3</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('4')">4</button>
+        </div>
+        <div class="row m-5">
+            <button type="button" class="btn btn-primary"  onclick="getNum('5')">5</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('6')">6</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('7')">7</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('8')">8</button>
+        </div>
+        <div class="row m-5">
+            <button type="button" class="btn btn-primary"  onclick="getNum('9')">9</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('0')">0</button>
+            <button type="button" class="btn btn-primary"  onclick="ans()" >=</button>
+            <button type="button" class="btn btn-primary"  onclick="back()">CE</button>
+            <button type="button" class="btn btn-primary"  onclick="getNum('.')">.</button>
+        </div>
+    </div> -->
+    
+
+
+    <!-- <p id="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error amet repellendus deserunt libero, iusto, soluta, quibusdam corrupti doloremque eligendi odit nulla adipisci neque facilis quam commodi pariatur. Amet, iure aut!
+    </p> -->
+<!-- <p id="para" onclick="redmore()">
+    Lorem ipsum dolor sit, amet consectetur <a href="javascript:void(0);">read more</a>
+</p>
+ -->
+
+<!-- 
+ <img src="car1.jpg" id ="img"  onmouseout="changeImg('img','car2.jpg')" onmouseover="changeImg('img','car1.jpg')"  > -->
+
+ <!-- <p id="para" onclick="change()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum excepturi fugit ea optio qui dignissimos facere. Architecto sunt molestias cupiditate praesentium nemo, non accusamus rerum, iste, ea dolore excepturi odio?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil praesentium ex modi molestias voluptates facilis possimus rerum omnis delectus architecto cupiditate optio, laborum voluptatem fugit non minima ducimus nulla.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias repudiandae esse doloribus, nesciunt, vel quod explicabo necessitatibus magni rerum officiis quasi sequi aspernatur perferendis exercitationem saepe cupiditate iste, deserunt fuga.</p>
+ -->
+<!-- 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+
+<p  class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+<p  class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+<p  class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut omnis, labore illo quibusdam doloremque perspiciatis eligendi id. Sed earum repellat odit fuga placeat voluptatum temporibus nulla doloribus quasi. Excepturi!</p> -->
+
+<!-- 
+<h2 id="head"></h2> -->
+
+
+<!-- <input type="text" name="" id="result">
+
+<button id="num" onclick="getNum('0')">0</button>
+<button id="num" onclick="getNum('1')">1</button>
+<button id="num" onclick="getNum('2')">2</button>
+<button id="num" onclick="getNum('3')">3</button>
+<button id="num" onclick="getNum('4')">4</button>
+<button id="num" onclick="getNum('5')">5</button>
+<button id="num" onclick="getNum('6')">6</button>
+<button id="num" onclick="getNum('7')">7</button>
+<button id="num" onclick="getNum('8')">8</button>
+<button id="num" onclick="getNum('9')">9</button>
+<button id="num" onclick="getNum('+')">+</button>
+<button id="num" onclick="getNum('-')">-</button>
+<button id="num"onclick="getNum('*')">*</button>
+<button id="num" onclick="getNum('/')">/</button>
+<button id="num" onclick="ans()">=</button>
+<button id="num" onclick="clearResult()"> clear</button>
+<button id="num" onclick="clearBtn()"> C</button> -->
+
+ 
+
+
+<!-- <h2 id="min">0</h2>
+<h2 id="sec">0</h2>
+<h2 id="msec">0</h2>
+
+<button type="button" onclick="start()">start</button>
+<button onclick="pause()">pause</button>
+<button onclick="reset()">reset</button> -->
+
+
+<!-- <h2>Todo app</h2>
+<input type="text" name="" id="todo">
+<button onclick="addwork()">Add</button>
+
+<div id="list">
+    <ul>
+
+    </ul>
+</div> -->
+
+<!-- <h2 id="number">0</h2>
+<button onclick="lower()" >LOWER COUNT</button>
+<button onclick="add()" >ADD COUNT</button> -->
+
+
+
+<!-- <input type="text" placeholder="name" id='name'>
+<br>
+<input type="text" placeholder="roll" id='roll'>
+<br>
+<button onclick="addData()">Add</button>
+<button onclick="firebaseDelete()">Delete</button> -->
+
+  <script src="app.js"></script>  
+</body>
+</html>
